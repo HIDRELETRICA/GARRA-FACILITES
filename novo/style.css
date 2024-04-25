@@ -88,7 +88,7 @@ section:nth-child(odd) {
     .panel {
         flex-wrap: wrap;
         
-        /* Permita que os itens da seÃ§Ã£o "Sobre Mim" quebrem para uma nova linha em telas menores */
+        /* Permita que os itens da seção "Sobre Mim" quebrem para uma nova linha em telas menores */
     }
 
 .panel h3 {
@@ -175,14 +175,14 @@ section:nth-child(odd) {
 @media (max-width: 768px) {
     .about {
         flex-wrap: wrap;
-        /* Permita que os itens da seÃ§Ã£o "Sobre Mim" quebrem para uma nova linha em telas menores */
+        /* Permita que os itens da seção "Sobre Mim" quebrem para uma nova linha em telas menores */
     }
 
     .person {
         flex: 0.4 0 30%;
-        /* Defina a largura de cada pessoa para ocupar 45% da largura da tela, deixando um espaÃ§o entre elas */
+        /* Defina a largura de cada pessoa para ocupar 45% da largura da tela, deixando um espaço entre elas */
         margin: 10px;
-        /* Adicione um espaÃ§o entre cada pessoa */
+        /* Adicione um espaço entre cada pessoa */
 
     }
 }
