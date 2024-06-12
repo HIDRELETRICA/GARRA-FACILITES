@@ -11,10 +11,11 @@
     <meta name="author" content="lehunteerz - garrafacicites.com.br" />
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/style2.css" />
   </head>
 
   <body>
+
+
     <div class="container">
 
       <!-- Codrops top bar -->
@@ -24,7 +25,61 @@
         <h2>Logo teremos um site novo e muito mais legal para Você !</h2>
 	
 				<h1>Garra Facilites</h1>
+  <!-- Dentro da sua <section class="main">  -->
+    <button id="abrirModal">Entre em Contato</button>
 
+    <div id="meuModal" class="modal">
+      <div class="conteudo-modal">
+        <span class="fechar">&times;</span>
+        <h2>Entre em Contato</h2>
+
+        <form action="">
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" placeholder="Seu nome">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Seu email" required>
+
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" placeholder="19 9999-9999">
+  
+          
+          <label for="mensagem">Mensagem</label> 
+          <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+        
+          <button type="submit">Enviar</button> <button type="reset">Limpar</button>
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <form>
+          <h2>Entre em Contato</h2>
+        
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+        
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+        
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui..." rows="5" required></textarea>
+        
+          <button type="submit">Enviar</button>
+        </form> -->
+      </div>
+    </div>
 
 
       </header>
@@ -40,11 +95,15 @@
             <span>I</span>
             <span>N</span>
             <span>G</span>
-
+            <div class="loading">
+              <div class="ponto"></div>
+              <div class="ponto"></div>
+              <div class="ponto"></div>
+            </div>
           </div>
         </div>
       </section>
     </div>
   </body>
-
+<script src="/js/script.js"></script>
 </html>
