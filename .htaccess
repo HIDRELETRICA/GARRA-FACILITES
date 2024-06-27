@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Reescrever URL para index.html
+RewriteRule ^$ index.html [L]
+
+# Reescrever URL para trabalhos.html
+RewriteRule ^trabalhos$ trabalhos.html [L]
